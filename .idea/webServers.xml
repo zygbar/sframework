@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="712f0dbe-1915-43d5-9fc6-6ec645f368cf" name="ubuntu" url="http://sframework.local">
+        <fileTransfer host="sframework.local" port="12224" rootFolder="/usr/share/nginx/sframework" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="12224" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
