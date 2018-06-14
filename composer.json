@@ -18,6 +18,7 @@
         "php-di/php-di": "^6.0",
         "league/route": "^3.0",
         "zendframework/zend-diactoros": "^1.7",
-        "twig/twig": "^2.4"
+        "twig/twig": "^2.4",
+        "doctrine/dbal": "^2.5"
     }
 }

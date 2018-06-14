@@ -23,12 +23,14 @@ class Routes
                 return $response;
         });
 
-        $route->get('/test', function (ServerRequestInterface $request, ResponseInterface $response) {
-                $response->getBody()->write('test');
-                return $response;
+        $route->get('/test', function(ServerRequestInterface $request, ResponseInterface $response) {
+            $response->getBody()->write('<h1>Test</h1>');
+            return $response;
         });
 
         $route->get('/hello/{name}', GreetingsController::class . '::index');
+        $route->get('/add/{name}', GreetingsController::class . '::store');
+
 
         return $route;
     }
